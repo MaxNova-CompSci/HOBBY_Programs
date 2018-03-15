@@ -1,0 +1,186 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 //http://simpleradar.com/\
+//-novid -high -console -threads 4 -tickrate 128 -fullscreen -language english +exec CONFIG.cfg\
+//Effective total DPI: 1250 Mouse Polling Rate: 1000hz\
+//REZ = 2560*1440  Ratio = 16:9 \
+//144 hz\
+//color mode = computer monitor\
+//display = fullscreen \
+//power saving = disabled\
+//Update drivers\
+//https://www.esportsettings.com/csgo-optimization-guide/\
+\
+//Nvidia control panel settings\
+//Image settings to performance\
+//Brightness 60\
+//Contrast 0\
+//Gamma 1.8\
+//Vibrance 80\
+//Hue 0\
+//aspect ratio\
+\
+//Visual Quality\
+//Global Shadow Quality = high\
+//Texture Detail = low\
+//Effect Detail = low\
+//Shader Detail = low\
+//Multicore Rendering = Enabled\
+//Multisampling Anti-Aliasing Mode = none\
+//texture filtering mode = bilinear\
+//FXAA Anti-Aliasing = 4x MSAA\
+//Verrtical Sync = disabled\
+//Motion blur = disabled\
+\
+//Crosshair Settings\
+cl_crosshair_drawoutline "1"\
+cl_crosshair_dynamic_maxdist_splitratio "0.35"\
+cl_crosshair_dynamic_splitalpha_innermod "0"\
+cl_crosshair_dynamic_splitalpha_outermod "0.5"\
+cl_crosshair_dynamic_splitdist "7"\
+cl_crosshair_outlinethickness "1"\
+cl_crosshair_sniper_show_normal_inaccuracy "0"\
+cl_crosshair_sniper_width "1"\
+cl_crosshair_t "0"\
+cl_crosshairalpha "255.000000"\
+cl_crosshaircolor "6"\
+cl_crosshaircolor_b "50"\
+cl_crosshaircolor_g "250"\
+cl_crosshaircolor_r "50"\
+cl_crosshairdot "0"\
+cl_crosshairgap "0.000000"\
+cl_crosshairgap_useweaponvalue "0"\
+cl_crosshairscale "0"\
+cl_crosshairsize "3.500000"\
+cl_crosshairstyle "4"\
+cl_crosshairthickness "0.000000"\
+cl_crosshairusealpha "1"\
+cl_fixedcrosshairgap "3"\
+\
+//ViewModel Settings\
+viewmodel_fov "68"\
+viewmodel_offset_x "3"\
+viewmodel_offset_y "3"\
+viewmodel_offset_z "-3"\
+cl_bob_lower_amt "5"\
+cl_bobcycle "2"\
+\
+//HRTF Settings\
+windows_speaker_config "1"\
+snd_front_headphone_position "90.0"\
+snd_rear_headphone_position "90.0"\
+snd_headphone_pan_exponent "1.0"\
+snd_headphone_pan_radial_weight "1.0"\
+snd_hrtf_ratio "1"\
+dsp_enhance_stereo "0"\
+snd_legacy_surround "0"\
+snd_mixahead "0.05"\
+snd_pitchquality "1"\
+windows_speaker_config "1"\
+snd_front_headphone_position "53.2"\
+snd_rear_headphone_position "90.0"\
+snd_headphone_pan_exponent "1.2"\
+snd_headphone_pan_radial_weight "0.5"\
+\
+//Audio Settings\
+snd_deathcamera_volume "0.0"\
+snd_mapobjective_volume "0.0"\
+snd_menumusic_volume "0.0"\
+snd_musicvolume "0.2"\
+snd_mute_losefocus "0"\
+snd_roundend_volume "0.0"\
+snd_roundstart_volume "0.0"\
+snd_tensecondwarning_volume "0.3"\
+volume "0.7"\
+//Win 10 - 60 \
+voice_scale "0.3"\
+snd_mute_losefocus "0"\
+\
+//RATES\
+rate "307200"\
+cl_cmdrate "128"\
+cl_updaterate "128"\
+cl_interp "0.0"\
+cl_interp_ratio "1"\
+cl_interpolate "1"\
+cl_lagcompensation "1"\
+\
+//Video\
+mat_monitorgamma "1.6"\
+mat_queue_mode "-1" // auto detect multi-core rendering\
+fps_max "999"\
+fps_max_menu "145"\
+r_dynamic "0"\
+r_drawtracers_firstperson "0"\
+\
+//MOUSE\
+m_rawinput "1"\
+m_customaccel "0"\
+m_mouseaccel1 "0"\
+m_mouseaccel2 "0"\
+m_mousespeed "0"\
+sensitivity "1.0"\
+\
+//BINDS\
+bind ] "+voicerecord"\
+bind w "+forward"\
+bind a "+moveleft"\
+bind s "+back"\
+bind d "+moveright"\
+bind c "use weapon_hegrenade"\
+bind e "+use"\
+bind r "+reload; r_cleardecals"\
+bind g "drop"\
+bind space "+jump; r_cleardecals"\
+bind 6 "say ;noclip;say .noclip;practice" // noclip + practice mode\
+bind 0 "toggle voice_enable"\
+bind mouse1 "+attack"\
+bind mouse2 "+attack2"\
+bind f "use weapon_smokegrenade"\
+bind 9 "use weapon_flashbang;"\
+bind 4 "use weapon_incgrenade; use weapon_molotov"\
+bind 2 "slot2"\
+bind q "slot5"\
+bind ctrl "use weapon_c4;drop"\
+bind z "voice_enable 0;"\
+bind x "voice_enable 1;"\
+bind u "say_team"\
+bind y "say"\
+bind tab "+showscores"\
+bind KP_5 "toggleconsole"\
+bind KP_UPARROW "+speed"\
+bind shift "+duck"\
+bind n "use weapon_decoy"\
+unbind mwheelup;\
+unbind mwheeldown;\
+\
+//TEAM VIEW\
+cl_teamid_overhead_always 1\
+cl_teamid_overhead_maxdist 9999\
+bind v "+cl_show_team_equipment;"\
+\
+//HUD\
+cl_hud_color "2"\
+\
+//Misc\
+cl_autowepswitch "0"\
+raw_input 1\
+mm_dedicated_search_maxping "50"\
+r_dynamic \'930\'94\
+cl_showloadout "1"\
+cl_mute_enemy_team "1"\
+gameinstructor_enable 0 \
+cl_showhelp 0 \
+cl_autohelp 0 \
+cl_disablefreezecam 1\
+fps_max 350\
+\
+\
+\
+}
